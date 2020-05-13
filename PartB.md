@@ -66,26 +66,25 @@ Responsibilities (Individual)
       4. Responsible for highlighting any risk and coming with a mitigation plan
  
  Processes:
-    1. Development
-       1. Development teams will use Git based solutions for code respository.
-       2. Code commits needs to be done judiciously so that Team A can take the complete commit or decide to ignore. Changes for one bug or feature need to go under one commit.
-       3. The changes and design need to be captured so that it helps Team A understand the impact and avoid unknown surprises.
-       4. CI/CD will be integrated with unit tests, Sonar and automation suite which will generate daily coverage report, code quality report and automation report.
-       5. End of Every Sprint,there will be a demo to product owner and client. This needs to be signed off by Architect, Product Owner and Ux Designer.
-       6. Development teams C,D,E will have individual integration servers for microservices and the daily integrated build will be deployed on one common server for validation.
-       7. Security testing and Performance testing needs to be included in the development plan from the start
-       8. Code Coverage for unit tests >= 85 %
-       9. Only Minor SonarQube issues allowed. No Critical/Major issues.
-       10. Code Reviews and capturing code review comments in Git based solution or ReviewBoard
-       11. Sunset period for rest api's will be 3 months or lesser as per the acceptable criteria
-       12. Maintaining a wiki for the project which will be a goto for all sorts of issues, clarifications and understanding
-    2. Agile
-       1. Teams will follow Agile.
-       2. There will be Releases. Each Release will have a biweekly Sprint. Each Sprint will have user stories and/or issues to address.
-       3. Teams can use Jira or any suitable Project Management Tool to track the progress of Each Sprint and Release and maintance of the product backlog.
-       4. There will be sprint planning where the team will participate and use agile poker to assign story points to user stories
-       5. There will be a Sprint retrospective within team and across teams. What Went Well, What didn't go well, Things to improve, Things to continue needs to be discussed and captured in the Project Management Tool.
-       6. There will be daily scrum and srcum of srcums.
-       7. Need to have a communication tool such as Microsoft teams for better collaboration
-       8. Teams need to arrive at a sprint velocity number and constantly try to better this velocity through innovative means
-       
+   1. Development  
+      1. Development teams will use Git based solutions for code respository.  
+      2. Code commits needs to be done judiciously so that Team A can take the complete commit or decide to ignore. Changes for one bug or feature need to go under one commit.  
+      3. The changes and design need to be captured so that it helps Team A understand the impact and avoid unknown surprises.  
+      4. CI/CD will be integrated with unit tests, Sonar and automation suite which will generate daily coverage report, code quality report and automation report.  
+      5. End of Every Sprint,there will be a demo to product owner and client. This needs to be signed off by Architect, Product Owner and Ux Designer.  
+      6. Development teams C,D,E will have individual integration servers for microservices and the daily integrated build will be deployed on one common server for validation.  
+      7. Security testing and Performance testing needs to be included in the development plan from the start  
+      8. Code Coverage for unit tests >= 85 %  
+      9. Only Minor SonarQube issues allowed. No Critical/Major issues.  
+      10. Code Reviews and capturing code review comments in Git based solution or ReviewBoard  
+      11. Sunset period for rest api's will be 3 months or lesser as per the acceptable criteria  
+      12. Maintaining a wiki for the project which will be a goto for all sorts of issues, clarifications and understanding  
+   2. Agile  
+      1. Teams will follow Agile.  
+      2. There will be Releases. Each Release will have a biweekly Sprint. Each Sprint will have user stories and/or issues to address.  
+      3. Teams can use Jira or any suitable Project Management Tool to track the progress of Each Sprint and Release and maintance of the product backlog.  
+      4. There will be sprint planning where the team will participate and use agile poker to assign story points to user stories  
+      5. There will be a Sprint retrospective within team and across teams. What Went Well, What didn't go well, Things to improve, Things to continue needs to be discussed and captured in the Project Management Tool.  
+      6. There will be daily scrum and srcum of srcums.  
+      7. Need to have a communication tool such as Microsoft teams for better collaboration  
+      8. Teams need to arrive at a sprint velocity number and constantly try to better this velocity through innovative means  
