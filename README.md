@@ -1,9 +1,9 @@
 # casestudy
 
 This project consists of three sub-projects which are individual microservices
-a. product has api's to save, retrieve a product, retrieve product name and price given product id, update product price given product id
-b. product-data has api's to save and retrieve product name
-c. product-price has api's to save and retrieve product price
+    a. product has api's to save, retrieve a product, retrieve product name and price given product id, update product price given product id
+    b. product-data has api's to save and retrieve product name
+    c. product-price has api's to save and retrieve product price
 
 Spring Boot is used for rest api and for each microservice
 
@@ -15,8 +15,8 @@ Stpes to bring up microservice. The below works if you have maven installed and 
 All the three microservices will start.
 
 If maven is not installed, we can use the maven wrapper command, build and start the microservices.
-For Building: mvnw clean install
-For Starting: mvnw spring-boot:run 
+    For Building: mvnw clean install
+    For Starting: mvnw spring-boot:run 
 
 Steps to Create Data and check functionality.
 Open a git-bash terminal and use the following commands to create some data.
