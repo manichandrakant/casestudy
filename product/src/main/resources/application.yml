@@ -1,0 +1,3 @@
+resource:
+    productdata: http://localhost:8081/productdata
+    productPrice: http://localhost:8082/productprice
